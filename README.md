@@ -1,5 +1,8 @@
 # 🔍 Buscador de CEP
 
+[![GitHub](https://img.shields.io/badge/GitHub-Reposit%C3%B3rio-blue?style=flat-square&logo=github)](https://github.com/ElianeLunguinho/Buscador-de-CEP)
+[![Deploy](https://img.shields.io/badge/Vercel-Acessar%20Projeto-000000?style=flat-square&logo=vercel)](https://buscador-de-cep.vercel.app)
+
 Aplicação web desenvolvida em React para busca automática de endereços através do CEP (Código de Endereçamento Postal brasileiro), utilizando a API pública ViaCEP.
 
 ## 📋 Visão Geral
