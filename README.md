@@ -122,11 +122,43 @@ https://viacep.com.br/ws/{cep}/json/
 
 ## 🚀 Como Executar
 
-### Pré-requisitos
+### Deploy na Vercel (Produção)
+
+Siga os passos abaixo para fazer o deploy do seu projeto na Vercel:
+
+```bash
+# 1️⃣ Instalar a CLI do Vercel
+npm install -g vercel
+
+# 2️⃣ Fazer login no Vercel
+vercel login
+# (Ele vai pedir seu e-mail e enviar um link de confirmação)
+
+# 3️⃣ Fazer o deploy
+vercel
+```
+
+O terminal vai perguntar algumas coisas. Responda:
+
+- Set up and deploy? → **Y**
+- Which scope? → **sua conta**
+- Link to existing project? → **N**
+- Project Name → **buscador-de-cep**
+- Directory → **./**
+
+### Atualizar o Deploy
+
+Quando alterar algo no código, basta rodar:
+
+```bash
+vercel --prod
+```
+
+### Pré-requisitos (Desenvolvimento Local)
 - Node.js (versão 18 ou superior)
 - npm ou yarn
 
-### Instalação
+### Instalação (Desenvolvimento)
 
 ```bash
 # Clone o repositório ou extraia os arquivos
